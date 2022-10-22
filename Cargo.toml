@@ -1,0 +1,14 @@
+[package]
+name = "noisegui"
+author = "maxsc"
+description = "A gui for noise library for rust."
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+iced = { version="0.4", features = ["canvas", "palette", "tokio", "debug", "pure"] }
+palette = "0.6.0"
+noise="0.7"
+rand = "0.8.5"
